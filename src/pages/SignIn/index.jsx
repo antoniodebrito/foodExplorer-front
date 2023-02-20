@@ -31,6 +31,7 @@ export function SignIn() {
           </div>
           <Button title="Entrar"/>
         </form>
+        <p>Criar uma conta</p>
       </section>
     </Container>
   )

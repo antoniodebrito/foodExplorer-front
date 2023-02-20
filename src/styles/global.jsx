@@ -15,7 +15,7 @@ export default createGlobalStyle`
     height: 100vh;
     margin: 0;
     padding: 0;
-    text-decoration: none;
     overflow: hidden;
+    text-decoration: none;
   }
 `

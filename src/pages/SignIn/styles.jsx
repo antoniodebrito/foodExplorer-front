@@ -2,20 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.main`
   
-  height: 100vh;
   display: grid;
+  height: 100vh;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "brand form" ;
   place-content: center;
   
   .brand {
     align-items: center;
+    align-self: center;
     display: flex;
     gap: 2rem;
     grid-area: brand;
     height: 4.8rem;
     justify-content: center;
-    align-self: center;
 
     h1 {
       font-family: 'Roboto';
@@ -29,11 +29,20 @@ export const Container = styled.main`
     grid-area: form;
     width: 47rem;
 
-    > h2 {
-      text-align: center;
+    h2 {
       font-weight: 500;
       font-size: 3.2rem;
       line-height: 140%;
+    }
+
+    h2, p {
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 2.4rem;
     }
 
   }
@@ -41,8 +50,8 @@ export const Container = styled.main`
   .form, 
   .form form {
     display: flex;
-    gap: 3.2rem;
     flex-direction: column;
+    gap: 3.2rem;
   }
 
   .login-input {

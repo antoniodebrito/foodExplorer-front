@@ -1,23 +1,22 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
   border: 1px solid ${({ theme }) => theme.COLORS.LIGHT_100};
   border-radius: 5px;
   color: ${({ theme }) => theme.COLORS.LIGHT_500};
-
-
   display: flex;
-
+  
+  width: 100%;
+  
   > input {
-    height: 3.8rem;
     background: transparent;
-    padding: 1.2rem 1.4rem;
-    color: ${({ theme }) => theme.COLORS.LIGHT_500};
     border: 0;
-    width: 100%;
     border-radius: 1px;
+    color: ${({ theme }) => theme.COLORS.LIGHT_500};
     font-size: 1.6rem;
     font-weight: 400;
+    height: 3.8rem;
+    padding: 1.2rem 1.4rem;
+    width: 100%;
   }
 `
