@@ -10,7 +10,6 @@ export const Container = styled.main`
   
   .brand {
     align-items: center;
-    border: 1px solid red;
     display: flex;
     gap: 2rem;
     grid-area: brand;
@@ -27,9 +26,11 @@ export const Container = styled.main`
   }
 
   .form {
-    border: 1px solid red;
     grid-area: form;
+    width: 47rem;
   }
+
+  
 
   
 
