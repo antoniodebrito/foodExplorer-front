@@ -11,16 +11,20 @@ export function SignIn() {
       </section>
       <section className="form">
         <h2>Faça login</h2>
-        <form>
 
+        <form>
           <div className="login-input">
+            <label htmlFor="email">Email</label>
             <Input
+              id="email"
               placeholder="Exemplo: exemplo@exemplo.com.br"
             />
           </div>
 
           <div className="login-input">
+            <label htmlFor="password">Senha</label>
             <Input
+              id="password"
               placeholder="No mínimo 6 caracteres"
             />
           </div>

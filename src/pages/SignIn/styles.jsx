@@ -28,11 +28,34 @@ export const Container = styled.main`
   .form {
     grid-area: form;
     width: 47rem;
+
+    > h2 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 140%;
+    }
+
   }
 
-  
+  .form, 
+  .form form {
+    display: flex;
+    gap: 3.2rem;
+    flex-direction: column;
+  }
 
-  
+  .login-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    > label {
+      color: ${({theme}) => theme.COLORS.LIGHT_400};
+      font-weight: 400;
+      line-height: 100%;
+    }
+  } 
 
   
 `;
