@@ -50,7 +50,6 @@ export const Container = styled.main`
       font-weight: 500;
       line-height: 2.4rem;
     }
-
   }
 
   .authentication-form, 
@@ -72,7 +71,7 @@ export const Container = styled.main`
     }
   } 
 
-/* RESPONSIVE */
+/* RESPONSIVENESS */
 
   @media (max-width: 980px) {
     display: grid;
@@ -103,23 +102,5 @@ export const Container = styled.main`
       width: 100%;
     }
   }
-  
 `;
  
-// @media screen and(min - width: 980px) {
-//   grid - template - columns: 80rem;
-//   grid - template - rows: 100px 1fr;
-//   grid - template - areas: "brand" "form";
-//   border: 1px solid red;
-
-//   #root > main > section.brand {
-//     width: 500px;
-//     margin: 0 auto;
-//   }
-
-//     > section.brand {
-//     width: 500px;
-//     border: 1px solid red;
-//   }
-
-// }
