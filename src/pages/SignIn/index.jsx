@@ -2,6 +2,7 @@ import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 import { Container } from "../../styles/authentication";
 
+import { Link } from "react-router-dom";
 
 export function SignIn() {
   return (
@@ -30,7 +31,9 @@ export function SignIn() {
             </div>
             <Button title="Entrar"/>
           </form>
-          <p>Criar uma conta</p>
+          <p>
+            <Link to="/register">Criar uma conta</Link>
+          </p>
         </section>
       </div>
     </Container>

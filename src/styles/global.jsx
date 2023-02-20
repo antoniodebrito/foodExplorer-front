@@ -11,7 +11,6 @@ export default createGlobalStyle`
 
   :root {
     font-size: 62.5%;
-
   }
 
   html,
@@ -22,9 +21,20 @@ export default createGlobalStyle`
   body {
     background: ${({theme}) => theme.COLORS.DARK_400};
     border: none;
-    color: ${({theme}) => theme.COLORS.LIGHT_100};
+    height: 100vh;
+  }
+
+  body, input, textarea, button  {
     font-family: 'Roboto';
     font-size: 1.6rem;
-    height: 100vh;
+  }
+
+  body,
+  a {
+    color: ${({ theme }) => theme.COLORS.LIGHT_100};
+  }
+
+  button {
+    cursor: pointer;
   }
 `
