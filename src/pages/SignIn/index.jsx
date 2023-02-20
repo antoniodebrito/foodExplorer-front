@@ -1,3 +1,4 @@
+import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 import { Container } from "./styles";
 
@@ -28,7 +29,7 @@ export function SignIn() {
               placeholder="No mínimo 6 caracteres"
             />
           </div>
-          {/* button */}
+          <Button title="Entrar"/>
         </form>
       </section>
     </Container>
