@@ -1,3 +1,4 @@
+import logo from '/logo.svg'
 import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 import { Container } from "../../styles/authentication";
@@ -9,7 +10,7 @@ export function SignIn() {
     <Container>
       <div className="authentication">
         <section className="authentication-brand">
-          <img src="/logo.svg" alt="hexagono azul opaco" />
+          <img src={logo} alt="hexagono azul opaco" />
           <h1>food explorer</h1>
         </section>
         <section className="authentication-form">

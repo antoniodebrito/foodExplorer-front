@@ -9,7 +9,7 @@ export function SignUp() {
     <Container>
       <div className="authentication">
         <section className="authentication-brand">
-          <img src="/logo.svg" alt="hexagono azul opaco" />
+          <img src={logo} alt="hexagono azul opaco" />
           <h1>food explorer</h1>
         </section>
         <section className="authentication-form">
