@@ -1,3 +1,4 @@
+import logo from '/logo.svg'
 import { Link } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
